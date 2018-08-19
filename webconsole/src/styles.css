@@ -1,0 +1,16 @@
+/*
+@import "assets/css/animate.css";
+!*@import"assets/fonts/open-sans/stylesheet.css" ;*!
+!*@import"assets/fonts/icomoon/style.css" ;*!
+ @import"assets/css/bootstrap.min.css";
+ @import"assets/css/style.css";
+ !*@import"assets/css/responsive.css";*!
+ @import"assets/css/animate.css";
+ @import"assets/css/custom-style.php";
+
+a
+{
+  cursor: pointer;
+}!* You can add global styles to this file, and also import other style files *!
+*/
+

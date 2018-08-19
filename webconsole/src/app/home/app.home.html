@@ -1,0 +1,13 @@
+<div
+  style="margin-top: 200px;margin-left: 40%;margin-right: 40%;
+  background-color: rgb(128,255,255);width: 500px;height: 400px">
+  <div style="padding: 30px;">
+    <h2 style="color: rgb(0,74,74);">{{playerTypeMsg}}</h2>
+    <div style="margin-top: 50px;">
+      <p style="color: rgb(0,74,74);">Please enter a number:</p>
+      <input type="text" [disabled]="current_turn" id="numTxt" #numTxt>
+      <input class="btnStyle" type="button" value="GO!" (click)="doPlay(numTxt.value)">
+    </div>
+    <h3 style="color: red">{{anotherPlayerResp}}</h3>
+  </div>
+</div>
